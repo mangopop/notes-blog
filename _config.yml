@@ -28,7 +28,7 @@ twitter_username: fearisamindkila
 github_username:  mangopop
 
 # Build settings
-theme: jekyll-theme-so-simple
+remote_theme: "mmistakes/so-simple-theme@3.2.0"
 plugins:
   - jekyll-feed
 
