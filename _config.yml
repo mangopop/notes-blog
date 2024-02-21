@@ -46,8 +46,7 @@ google_fonts:
 
 footer_links:
   - title: T's & C's
-    url: [T's & C's]({{ site.baseurl }}{% link /ts&cs.md %})
-
+    url: "[T's & C's](https://mangopop.github.io/notes-blog/ts&cs.md)"
 
 # Exclude from processing.
 # The following items will not be processed, by default.
