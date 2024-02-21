@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Bluetooth quality poor"
+title:  "Poor Bluetooth audio quality"
 date:   2024-02-21 16:29:00 +0000
 categories: windows
 tags: bluetooth troubleshooting
