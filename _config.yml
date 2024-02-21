@@ -46,7 +46,7 @@ google_fonts:
 
 footer_links:
   - title: T's & C's
-    url: {{ '/ts&cs.md' | relative_url }
+    url: {{ '/ts&cs.md' | relative_url }}
 
 # Exclude from processing.
 # The following items will not be processed, by default.
