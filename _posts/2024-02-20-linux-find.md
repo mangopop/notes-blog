@@ -5,7 +5,7 @@ date:   2024-02-20 15:48:21 +0000
 categories: linux
 tags: find terminal
 ---
-## Some good resources here for finding things in the linux terminal
+## Some resources for using the find command in linux terminal
 
 fd find a good alternative
 [https://github.com/sharkdp/fd](https://github.com/sharkdp/fd)
