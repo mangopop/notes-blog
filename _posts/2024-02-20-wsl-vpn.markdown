@@ -1,0 +1,25 @@
+---
+layout: post
+title:  "WSL fixes under VPN"
+date:   2024-02-20 15:48:21 +0000
+categories: wsl
+tags: vpn wsl troubleshooting
+---
+
+## Turns out WSL2 can lose internet with certain VPN configurations
+
+Running this in powershell, if internet not working to get internet back in wsl2
+{% highlight powershell %}
+Get-NetAdapter | Where-Object {$_.InterfaceDescription -Match "Cisco AnyConnect"} | Set-NetIPInterface -InterfaceMetric 6000
+{% endhighlight %}
+
+Make the packet size bigger/smaller, mine was 1500 so lowered it just a bit
+{% highlight bash %}
+sudo ip link set eth0 mtu 1355
+{% endhighlight %}
+
+get it with
+{% highlight bash %}
+ip a | grep mtu
+{% endhighlight %}
+
