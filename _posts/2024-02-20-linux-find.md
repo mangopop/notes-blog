@@ -1,8 +1,9 @@
 ---
 layout: post
-title:  "Linux - Find"
+title:  "Linux - Find commands"
 date:   2024-02-20 15:48:21 +0000
-categories: code linux terminal
+categories: linux
+tags: find terminal
 ---
 
 {% highlight bash %}
