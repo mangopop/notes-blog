@@ -46,7 +46,8 @@ google_fonts:
 
 footer_links:
   - title: T's & C's
-    url: {{ '/ts&cs.md' | relative_url }}
+    url: [T's & C's]({{ site.baseurl }}{% link /ts&cs.md %})
+
 
 # Exclude from processing.
 # The following items will not be processed, by default.
