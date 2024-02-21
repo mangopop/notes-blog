@@ -6,7 +6,7 @@ categories: windows
 tags: bluetooth troubleshooting
 ---
 
-If headphones bluetooth audio quality really patchy, run this and it restores the quality instantly
+If headphones bluetooth audio quality really patchy, run this in power shell as admin and it restores the quality instantly
 
 {% highlight powershell %}
 Get-Service -DisplayName *Bluetooth* | Restart-Service -Force
