@@ -44,10 +44,6 @@ google_fonts:
   - name: "Lora"
     weights: "400,400i,700,700i"
 
-footer_links:
-  - title: T's & C's
-    url: "[T's & C's](https://mangopop.github.io/notes-blog/ts&cs.md)"
-
 # Exclude from processing.
 # The following items will not be processed, by default.
 # Any item listed under the `exclude:` key here will be automatically added to
